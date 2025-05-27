@@ -1,0 +1,23 @@
+﻿{
+  "info": {
+    "name": "TaskPro API",
+    "_postman_id": "12345-67890-abcde-fghij-klmno",
+    "description": "Coleção simples para testar API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Listar tarefas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/todos",
+          "host": ["{{base_url}}"],
+          "path": ["todos"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
