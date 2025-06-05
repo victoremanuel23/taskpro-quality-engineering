@@ -12,6 +12,7 @@ Este repositório contém a coleção Postman e o ambiente para testar a API Tas
 ### Instalando o Newman globalmente
 
 Abra o terminal e rode:
+npm install -g newman
 
 newman run ./postman/TaskPro_API.postman_collection.json -e ./postman/TaskPro_Environment.postman_environment.json -r cli
 
